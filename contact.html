@@ -90,7 +90,9 @@
                         </div>
                     </div>
                     <div class="contact-form-wrapper">
-                        <form class="contact-form">
+                        <form class="contact-form" name="contact" method="POST" data-netlify="true" autocomplete="on" novalidate netlify>
+                            <input type="hidden" name="form-name" value="contact">
+                            <input type="hidden" name="subject" value="New contact form submission from Groupe ANJ">
                             <div class="form-item">
                                 <label for="name" data-fr="Nom complet" data-en="Full Name">Nom complet</label>
                                 <input type="text" id="name" name="name" required>
