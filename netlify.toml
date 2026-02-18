@@ -1,0 +1,7 @@
+[build]
+  publish = "GroupeANJ"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
